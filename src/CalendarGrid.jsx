@@ -11,8 +11,8 @@ const CalendarGrid = () => {
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
 
-  const actualFirstDay = new Date(year, month, 1).getDay(); // 0 = Sun, 1 = Mon, ..., 6 = Sat
-  const firstDayOfMonth = (actualFirstDay - 5 + 7) % 7; // Make Friday the first day
+  const actualFirstDay = new Date(year, month, 1).getDay();
+  const firstDayOfMonth = (actualFirstDay - 5 + 7) % 7;
 
   const daysInMonth = new Date(year, month + 1, 0).getDate();
 
@@ -20,19 +20,15 @@ const CalendarGrid = () => {
   const nextMonth = () => setCurrentDate(new Date(year, month + 1, 1));
 
   const days = [];
-
   for (let i = 0; i < firstDayOfMonth; i++) {
     days.push(<div key={`empty-${i}`} className="calendar-day empty"></div>);
   }
 
   for (let i = 1; i <= daysInMonth; i++) {
     const dateObj = new Date(year, month, i);
-    const weekday = dateObj.toLocaleDateString("en-US", { weekday: "short" });
-
     days.push(
       <div key={`day-${i}`} className="calendar-day">
         <div className="date">{i}</div>
-        {/* <div className="weekday">{weekday}</div> */}
         <NamazUpdate1 date={dateObj} />
       </div>
     );

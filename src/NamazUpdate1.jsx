@@ -1,24 +1,53 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import axios from "axios";
 
-function NamazUpdate1() {
+const NamazUpdate1 = ({ date }) => {
   const Namaz = ["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"];
-  const [buttonVariants, setButtonVariants] = useState(
-    Namaz.reduce((acc, name) => ({ ...acc, [name]: "danger" }), {})
-  );
+  const formattedDate = date.toISOString().split("T")[0];
 
-  const handleButtonClick = (name) => {
-    setButtonVariants((prevVariants) => ({
-      ...prevVariants,
-      [name]: prevVariants[name] === "success" ? "danger" : "success",
-    }));
+  const [statuses, setStatuses] = useState({});
+
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/prayers?date=${formattedDate}`)
+      .then((res) => {
+        const data = res.data;
+        const state = {};
+        Namaz.forEach((name) => {
+          const entry = data.find((d) => d.name === name);
+          state[name] = entry ? entry.status : "missed";
+        });
+        setStatuses(state);
+      });
+  }, [formattedDate]);
+
+  const handleClick = async (name) => {
+    const newStatus = statuses[name] === "offered" ? "missed" : "offered";
+    const response = await axios.get(
+      `http://localhost:3000/prayers?date=${formattedDate}&name=${name}`
+    );
+    if (response.data.length > 0) {
+      const id = response.data[0].id;
+      await axios.put(`http://localhost:3000/prayers/${id}`, {
+        ...response.data[0],
+        status: newStatus,
+      });
+    } else {
+      await axios.post(`http://localhost:3000/prayers`, {
+        date: formattedDate,
+        name,
+        status: newStatus,
+      });
+    }
+    setStatuses((prev) => ({ ...prev, [name]: newStatus }));
   };
 
   const renderTooltip = (props, name, status) => (
     <Tooltip id={`button-tooltip-${name}`} {...props}>
-      {status} {name} - {new Date().toLocaleDateString()}
+      {status === "offered" ? "Offered" : "Missed"} {name} - {formattedDate}
     </Tooltip>
   );
 
@@ -37,16 +66,12 @@ function NamazUpdate1() {
           placement="bottom"
           delay={{ show: 250, hide: 300 }}
           overlay={(props) =>
-            renderTooltip(
-              props,
-              name,
-              buttonVariants[name] === "success" ? "Offered" : "Missed"
-            )
+            renderTooltip(props, name, statuses[name] || "missed")
           }
         >
           <Button
-            variant={buttonVariants[name]}
-            onClick={() => handleButtonClick(name)}
+            variant={statuses[name] === "offered" ? "success" : "danger"}
+            onClick={() => handleClick(name)}
             style={{
               width: "28px",
               height: "28px",
@@ -65,6 +90,6 @@ function NamazUpdate1() {
       ))}
     </div>
   );
-}
+};
 
 export default NamazUpdate1;
