@@ -232,13 +232,13 @@
       "id": "4abc",
       "date": "2025-08-04",
       "name": "Fajr",
-      "status": "offered"
+      "status": "missed"
     },
     {
       "id": "7c32",
       "date": "2025-08-04",
       "name": "Dhuhr",
-      "status": "offered"
+      "status": "missed"
     },
     {
       "id": "081b",
@@ -250,19 +250,19 @@
       "id": "9dc5",
       "date": "2025-08-04",
       "name": "Isha",
-      "status": "offered"
+      "status": "missed"
     },
     {
       "id": "548c",
       "date": "2025-08-04",
       "name": "Maghrib",
-      "status": "offered"
+      "status": "missed"
     },
     {
       "id": "3ac6",
       "date": "2025-08-04",
       "name": "Asr",
-      "status": "offered"
+      "status": "missed"
     },
     {
       "id": "92d9",
@@ -279,6 +279,936 @@
     {
       "id": "5bac",
       "date": "2025-08-05",
+      "name": "Isha",
+      "status": "missed"
+    },
+    {
+      "id": "d4c7",
+      "date": "2025-07-30",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "1ea0",
+      "date": "2025-07-30",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "df9a",
+      "date": "2025-07-30",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "c05c",
+      "date": "2025-07-30",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "cf79",
+      "date": "2025-07-30",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "e9ee",
+      "date": "2025-07-29",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "aa29",
+      "date": "2025-07-29",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "0fd5",
+      "date": "2025-07-29",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "e658",
+      "date": "2025-07-29",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "2535",
+      "date": "2025-07-29",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "0529",
+      "date": "2025-07-28",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "d879",
+      "date": "2025-07-28",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "8b19",
+      "date": "2025-07-28",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "1e18",
+      "date": "2025-07-28",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "7c5d",
+      "date": "2025-07-28",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "ce4c",
+      "date": "2025-07-27",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "c9c9",
+      "date": "2025-07-27",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "bfad",
+      "date": "2025-07-27",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "abcb",
+      "date": "2025-07-27",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "f934",
+      "date": "2025-07-27",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "6843",
+      "date": "2025-07-26",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "9540",
+      "date": "2025-07-26",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "c754",
+      "date": "2025-07-26",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "5e4c",
+      "date": "2025-07-26",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "e2b0",
+      "date": "2025-07-26",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "8b50",
+      "date": "2025-07-25",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "13d9",
+      "date": "2025-07-25",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "1ba2",
+      "date": "2025-07-25",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "99de",
+      "date": "2025-07-25",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "a13f",
+      "date": "2025-07-25",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "485b",
+      "date": "2025-07-24",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "6845",
+      "date": "2025-07-24",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "d7e3",
+      "date": "2025-07-24",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "2451",
+      "date": "2025-07-24",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "1477",
+      "date": "2025-07-24",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "122a",
+      "date": "2025-07-17",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "878c",
+      "date": "2025-07-17",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "5c42",
+      "date": "2025-07-17",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "4398",
+      "date": "2025-07-17",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "d5c3",
+      "date": "2025-07-17",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "33e1",
+      "date": "2025-07-18",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "f071",
+      "date": "2025-07-18",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "1d35",
+      "date": "2025-07-18",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "d4eb",
+      "date": "2025-07-18",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "8914",
+      "date": "2025-07-18",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "ad2c",
+      "date": "2025-07-19",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "22b5",
+      "date": "2025-07-19",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "8eef",
+      "date": "2025-07-19",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "3514",
+      "date": "2025-07-19",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "fe08",
+      "date": "2025-07-19",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "8f77",
+      "date": "2025-07-20",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "d52d",
+      "date": "2025-07-20",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "d819",
+      "date": "2025-07-20",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "c490",
+      "date": "2025-07-20",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "0da7",
+      "date": "2025-07-20",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "7f9c",
+      "date": "2025-07-21",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "ef87",
+      "date": "2025-07-21",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "1f7c",
+      "date": "2025-07-21",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "3658",
+      "date": "2025-07-21",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "19fa",
+      "date": "2025-07-21",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "93e6",
+      "date": "2025-07-22",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "ebb1",
+      "date": "2025-07-22",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "1b7b",
+      "date": "2025-07-22",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "23d8",
+      "date": "2025-07-22",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "b657",
+      "date": "2025-07-22",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "a7b3",
+      "date": "2025-07-23",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "79a5",
+      "date": "2025-07-23",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "12fd",
+      "date": "2025-07-23",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "fe0c",
+      "date": "2025-07-23",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "204b",
+      "date": "2025-07-23",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "e62d",
+      "date": "2025-07-16",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "ab88",
+      "date": "2025-07-16",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "ca09",
+      "date": "2025-07-16",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "656f",
+      "date": "2025-07-16",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "3120",
+      "date": "2025-07-16",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "e9a7",
+      "date": "2025-07-15",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "7b08",
+      "date": "2025-07-15",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "604e",
+      "date": "2025-07-15",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "febb",
+      "date": "2025-07-15",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "d260",
+      "date": "2025-07-15",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "9cad",
+      "date": "2025-07-14",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "f2c3",
+      "date": "2025-07-14",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "818c",
+      "date": "2025-07-14",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "0704",
+      "date": "2025-07-13",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "6d01",
+      "date": "2025-07-13",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "ecd5",
+      "date": "2025-07-13",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "809d",
+      "date": "2025-07-12",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "745d",
+      "date": "2025-07-12",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "9e87",
+      "date": "2025-07-12",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "314d",
+      "date": "2025-07-11",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "36b9",
+      "date": "2025-07-11",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "6d9b",
+      "date": "2025-07-11",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "fb9e",
+      "date": "2025-07-10",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "b46a",
+      "date": "2025-07-10",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "d73c",
+      "date": "2025-07-10",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "f831",
+      "date": "2025-07-03",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "7855",
+      "date": "2025-07-03",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "fe51",
+      "date": "2025-07-03",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "8b25",
+      "date": "2025-07-03",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "df63",
+      "date": "2025-07-03",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "c1df",
+      "date": "2025-07-04",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "7ae0",
+      "date": "2025-07-04",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "cf0d",
+      "date": "2025-07-04",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "1dda",
+      "date": "2025-07-05",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "7989",
+      "date": "2025-07-05",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "0cb1",
+      "date": "2025-07-05",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "e948",
+      "date": "2025-07-06",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "d47f",
+      "date": "2025-07-06",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "0bc0",
+      "date": "2025-07-05",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "fa56",
+      "date": "2025-07-05",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "779c",
+      "date": "2025-07-04",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "0512",
+      "date": "2025-07-04",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "bc00",
+      "date": "2025-07-06",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "f656",
+      "date": "2025-07-06",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "7c30",
+      "date": "2025-07-06",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "7330",
+      "date": "2025-07-07",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "bc6d",
+      "date": "2025-07-07",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "dd41",
+      "date": "2025-07-07",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "8d1b",
+      "date": "2025-07-07",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "2411",
+      "date": "2025-07-07",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "4caa",
+      "date": "2025-07-10",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "7ddf",
+      "date": "2025-07-10",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "2bfa",
+      "date": "2025-07-11",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "8dc9",
+      "date": "2025-07-11",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "85ff",
+      "date": "2025-07-12",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "48ee",
+      "date": "2025-07-12",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "7455",
+      "date": "2025-07-13",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "8911",
+      "date": "2025-07-13",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "e126",
+      "date": "2025-07-14",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "6871",
+      "date": "2025-07-14",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "4587",
+      "date": "2025-07-08",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "cdb9",
+      "date": "2025-07-08",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "cf68",
+      "date": "2025-07-08",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "350c",
+      "date": "2025-07-08",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "aa61",
+      "date": "2025-07-08",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "979c",
+      "date": "2025-07-09",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "fc88",
+      "date": "2025-07-09",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "f6b1",
+      "date": "2025-07-09",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "a50a",
+      "date": "2025-07-09",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "8993",
+      "date": "2025-07-09",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "cb5b",
+      "date": "2025-07-02",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "80d8",
+      "date": "2025-07-02",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "e961",
+      "date": "2025-07-02",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "becd",
+      "date": "2025-07-02",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "aa5e",
+      "date": "2025-07-02",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "eabb",
+      "date": "2025-07-01",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "3cc4",
+      "date": "2025-07-01",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "312c",
+      "date": "2025-07-01",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "2237",
+      "date": "2025-06-30",
+      "name": "Asr",
+      "status": "offered"
+    },
+    {
+      "id": "b1fe",
+      "date": "2025-06-30",
+      "name": "Dhuhr",
+      "status": "offered"
+    },
+    {
+      "id": "9699",
+      "date": "2025-06-30",
+      "name": "Fajr",
+      "status": "offered"
+    },
+    {
+      "id": "53fa",
+      "date": "2025-06-30",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "550b",
+      "date": "2025-06-30",
+      "name": "Isha",
+      "status": "offered"
+    },
+    {
+      "id": "663f",
+      "date": "2025-07-01",
+      "name": "Maghrib",
+      "status": "offered"
+    },
+    {
+      "id": "97a2",
+      "date": "2025-07-01",
       "name": "Isha",
       "status": "offered"
     }
