@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap"; // Assuming you are using React-Bootstrap
+import { Button } from "react-bootstrap";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 
 function NamazUpdate1() {
   const Namaz = ["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"];
-
-  // Initialize state to hold variants for each Namaz item, default to 'success'
   const [buttonVariants, setButtonVariants] = useState(
     Namaz.reduce((acc, name) => ({ ...acc, [name]: "danger" }), {})
   );
@@ -12,23 +12,56 @@ function NamazUpdate1() {
   const handleButtonClick = (name) => {
     setButtonVariants((prevVariants) => ({
       ...prevVariants,
-      // Toggle between 'success' and 'danger'
       [name]: prevVariants[name] === "success" ? "danger" : "success",
     }));
   };
 
+  const renderTooltip = (props, name, status) => (
+    <Tooltip id={`button-tooltip-${name}`} {...props}>
+      {status} {name} - {new Date().toLocaleDateString()}
+    </Tooltip>
+  );
+
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        flexWrap: "wrap",
+        gap: "4px",
+      }}
+    >
       {Namaz.map((name) => (
-        <Button
+        <OverlayTrigger
           key={name}
-          variant={buttonVariants[name]}
-          onClick={() => handleButtonClick(name)}
-          style={{ margin: "5px", padding: "5px", width: "100px" }}
-          size="lg"
+          placement="bottom"
+          delay={{ show: 250, hide: 300 }}
+          overlay={(props) =>
+            renderTooltip(
+              props,
+              name,
+              buttonVariants[name] === "success" ? "Offered" : "Missed"
+            )
+          }
         >
-          {name}
-        </Button>
+          <Button
+            variant={buttonVariants[name]}
+            onClick={() => handleButtonClick(name)}
+            style={{
+              width: "28px",
+              height: "28px",
+              borderRadius: "50%",
+              padding: "0",
+              fontSize: "0.75rem",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            size="sm"
+          >
+            {name.charAt(0)}
+          </Button>
+        </OverlayTrigger>
       ))}
     </div>
   );

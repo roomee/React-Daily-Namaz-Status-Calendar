@@ -1,5 +1,6 @@
 import React from "react";
 import NamazUpdate1 from "./NamazUpdate1";
+import "./CalendarTable.css";
 
 const CalendarTable = ({ year, month }) => {
   // Get the first day of the month (0-indexed: 0 for January)
@@ -37,7 +38,7 @@ const CalendarTable = ({ year, month }) => {
   });
 
   return (
-    <table>
+    <table width="100% ">
       <thead>
         <tr>
           <th>Sun</th>

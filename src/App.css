@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+body {
+  background-color: #eef2f5;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #333;
+}

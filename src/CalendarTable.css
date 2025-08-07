@@ -1,0 +1,9 @@
+ td {
+   border: 1px solid black;
+   /* Optional: Add a border for visual clarity */
+   border-radius: 10px;
+   /* Adjust the value for desired roundness */
+   padding: 8px;
+   /* Optional: Add padding for content spacing */
+   background: #e7e8e9;
+ }
